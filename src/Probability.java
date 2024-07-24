@@ -16,6 +16,7 @@ public class Probability {
         final int greaterThan = 1;
         final int lessThan = -1;
         final int equal = 0;
+
         if (this.value > otheProbability.value) {
             return greaterThan;
         }
@@ -32,6 +33,6 @@ public class Probability {
 
     @Override
     public String toString() {
-        return "Probability [value=" + value + "]";
+        return this.value + "";
     }
 }
